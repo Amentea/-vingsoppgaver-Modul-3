@@ -1,1 +1,14 @@
+navn = "Mihretab Dawi Amentea"
+alder = 21
+hoyde = 178,5
+er_student = True
+hobbyer = ("Styrketrening, løping og svømming")
+print("Navn:", navn)
+print("Alder:", alder)
+print("Høyde:", hoyde)
+print("Er student:", er_student)    
 
+print("Er student:",type(er_student)) 
+print("Høyde:", type(hoyde))
+print("Alder:", (type(alder)))
+print(" Navn:", type(navn))

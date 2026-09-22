@@ -1,1 +1,8 @@
-
+# Jeg tror poeng blir: __15__
+poeng = 0
+poeng = poeng += 10
+poeng = poeng + 25
+poeng = poeng - 5
+poeng = poeng * 2
+poeng = poeng / 4
+print(poeng)

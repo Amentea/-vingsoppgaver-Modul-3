@@ -1,1 +1,54 @@
+# Oppgave 5 — Sant eller usant
+
+alder = 31
+aldersgrense = 18
+navn = "Michael"
+antall_studenter = 30
+
+# Uttrykk 1
+# Jeg tror svaret blir: True
+print("alder > aldersgrense:", alder > aldersgrense)
+
+# Uttrykk 2
+# Jeg tror svaret blir: True
+print("alder == 31:", alder == 31)
+
+# Uttrykk 3
+# Jeg tror svaret blir: True
+print("alder != aldersgrense:", alder != aldersgrense)
+
+# Uttrykk 4
+# Jeg tror svaret blir: False
+print("alder <= aldersgrense:", alder <= aldersgrense)
+
+# Uttrykk 5
+# Jeg tror svaret blir: True
+print("navn == 'Michael':", navn == "Michael")
+
+# Uttrykk 6
+# Jeg tror svaret blir: False
+print("navn == 'michael':", navn == "michael")
+
+# Uttrykk 7
+# Jeg tror svaret blir: True
+print("antall_studenter >= 30:", antall_studenter >= 30)
+
+# Uttrykk 8
+# Jeg tror svaret blir: True
+print("alder + 5 > antall_studenter:", alder + 5 > antall_studenter)
+
+# --- Refleksjon ---
+# 1. Uttrykk 5 og 6 ser nesten like ut, men gir ulikt svar. Hvorfor?
+# Python er følsom for store og små bokstaver (case-sensitive). "Michael" med stor M er ikke det samme som "michael" med liten m.
+
+# 2. Hva er forskjellen på = og ==? Forklar med egne ord.
+# Enkel likhet (=) kalles tilordning og brukes til å gi en variabel en verdi.
+# Dobbelt likhet (==) kalles en sammenligningsoperator og brukes til å sjekke om to verdier er like.
+
+# 3. Uttrykk 8 inneholder både en aritmetisk og en sammenligningsoperator. Hvilken rekkefølge tror du Python gjør dem i?
+# Python gjør de aritmetiske operasjonene først (alder + 5 = 36), og gjør deretter sammenligningen (36 > 30).
+
+# 4. Alle svarene her er True eller False. Hvor tror du slike verdier er nyttige i et program?
+# Boolske verdier er helt avgjørende når vi skal bruke betingelser (if-setninger) til å ta valg i programmet
+# (f.eks. sjekke om en bruker er gammel nok til å logge inn, eller om et passord er riktig).
 

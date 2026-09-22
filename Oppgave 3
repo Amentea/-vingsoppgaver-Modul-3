@@ -1,1 +1,17 @@
-
+brus = 24.90
+smørbrød = 45
+banan = 8.50
+totalsum = brus + + smørbrød + banan
+totalsum = totalsum * 1.25
+pris_per_person = totalsum / 4
+prisforskjell = pris_per_person - banan
+print(type(totalsum))
+print(totalsum)
+print(type(pris_per_person))
+print(pris_per_person)
+print(type(prisforskjell))
+print(prisforskjell)
+# smørbrød er et heltall, brus er et desimaltall. Hva slags datatype ble svaret da du la dem sammen?
+# datatypen ble float. jeg visste ikke dette men viss du plusser sammen heltall og desimaltall vil du alltid få float som svar
+#Hva ble datatypen da du delte på fire? Ble du overrasket?
+#Hvorfor er det en fordel å bruke variabler i stedet for å skrive tallene på nytt hver gang? Tenk på hva som skjer hvis prisen på brus endrer seg.
